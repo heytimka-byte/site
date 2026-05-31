@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>До встречи!</title>
+</head>
+<body>
+    
+    <h2 class="sub-text">Я за тобой зайду в 6 </h2>
+
+    <script>
+        const savedDate = localStorage.getItem('SavedDate');
+        const dateShow = document.getElementById('dateShow');
+
+        if (savedDate) {
+            dateShow.textContent = savedDate;
+        } else {
+            dateShow.textContent =  'Скоро все будет!';
+        }
+    </script>
+</body>
+</html>
