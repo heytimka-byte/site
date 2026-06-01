@@ -1,12 +1,13 @@
 body {
-    background-color: #f791ee;
+    
+    background-image: url('img/loves.jpg');
 }
 
 h1 {
     position: absolute;
     top: 53%;
-    left: 49%;
-    transform: translate(-53%, -49%);
+    left: 51%;
+    transform: translate(-53%, -51%);
     font-size: 40px;
 }
 
@@ -20,7 +21,7 @@ h1 {
 }
 
 button {
-    background-color: #ff7bf4;
+    background-color: #ffa9f8;
     padding: 20px 40px;
     font-size: 50px;
 }
@@ -35,8 +36,8 @@ button {
     background-color: white;
     font-family: Arial, sans-serif;
     color: #333;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     font-size: 20px;
     padding: 10px;
     border-radius: 20px;
@@ -46,8 +47,8 @@ button {
 
 .calendar-container {
     position: absolute;
-    top: 45%;
-    left: 48%;
+    top: 43%;
+    left: 49%;
     transform: translate(-45%, -48%);
 }
 
@@ -60,6 +61,9 @@ button {
 
 .btn-ok {
     border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 42%;
 }
 
 .date-display {
@@ -76,11 +80,56 @@ button {
     width: fit-content;
 }
 
-.sub-text {
-    text-align: center;
-    font-size: 32px;
-    color: white;
-    margin-top: 40px;
-    font-family: sans-serif;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+
+
+.my-box {
+   width: 650px;
+    height: 650px;
+    background-color: #febeff;
+    border-radius: 30px;
+    position: absolute;
+    top: 110px;
+    left: 630px;
+    z-index: -1;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.22);
+    
+    
+}
+
+.box2 {
+    width: 650px;
+    height: 650px;
+    background-color: #febeff;
+    border-radius: 30px;
+    position: absolute;
+    top: 110px;
+    left: 630px;
+    z-index: -1;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.22);
+}
+
+.box3 {
+    width: 650px;
+    height: 650px;
+    background-color: #febeff;
+    border-radius: 30px;
+    position: absolute;
+    top: 110px;
+    left: 630px;
+    z-index: -1;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.22);
+}
+
+.hik {
+    white-space: nowrap;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+
+.pop {
+ 
+    position: absolute;
+    top: 40%;
+    left: 50%;
 }
